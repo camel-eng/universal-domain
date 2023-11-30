@@ -106,3 +106,5 @@ others
 
 ## for License
 The source code is licensed MIT, please see "LICENSE" file.
+
+Special Thanks [The MIT License](https://opensource.org/license/mit/)
