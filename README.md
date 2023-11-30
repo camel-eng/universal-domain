@@ -67,7 +67,7 @@ UserEntity user = new UserEntity();
 user.setString("USER_ID",   "313");
 user.setString("USER_NAME", "MISOSAZAI SATOMI");
 
-user.update();
+user.insert();
 ```
 
 ### creating a process to update datas
