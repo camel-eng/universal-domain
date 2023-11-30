@@ -45,6 +45,8 @@ UserEntity user = new UserEntity();
 // Search conditions
 FilterIF where = user.getFilter();
 where.addLike("USER_NAME", "HIFUMI");
+where.nextEntry();
+where.addLike("USER_NAME", "SATOMI");
 
 // Rows of data that are not persisted
 EntitySetIF resultList = user.find();
